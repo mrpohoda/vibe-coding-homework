@@ -1,0 +1,9 @@
+[project]
+name = "homework"
+version = "0.1.0"
+description = "Homework assignments"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.66.3",
+    "python-dotenv>=1.0.1",
+]
