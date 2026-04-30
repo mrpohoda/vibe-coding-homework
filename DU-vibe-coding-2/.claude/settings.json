@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/mrpohoda/Work/Vibe-Coding-1/HOMEWORK/DU-vibe-coding-2/src"
+      ]
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(npx:*)",
+      "Bash(tsx:*)"
+    ]
+  }
+}
