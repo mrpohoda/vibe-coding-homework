@@ -1,0 +1,20 @@
+{
+  "name": "code-review-agent",
+  "version": "1.0.0",
+  "description": "Automated code review system using Claude Code SDK with Supervisor multi-agent pattern",
+  "main": "dist/orchestrator.js",
+  "scripts": {
+    "start": "npx ts-node -r tsconfig-paths/register src/orchestrator.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-code": "latest",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
